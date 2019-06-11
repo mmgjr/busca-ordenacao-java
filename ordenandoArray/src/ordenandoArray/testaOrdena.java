@@ -21,12 +21,16 @@ public class testaOrdena {
 		}
 		
 	}
-
+//Selection Sort
 	private static void ordenar(Carro[] carros) {
 		for (int atual = 0; atual < carros.length; atual++) {
+		
+			//System.out.println("Estou na casinha " + atual);
 			int menor = buscaMenor(carros,atual,carros.length);
+			//System.out.println("Trocando " + atual + " com o " + menor);
 			Carro carro1 = carros[atual];
 			Carro carro2 = carros[menor];
+			//System.out.println("Trocando "+ carro1.getNome() +" " + carro2.getNome());
 			carros[atual] = carro2;
 			carros[menor] = carro1;
 			
