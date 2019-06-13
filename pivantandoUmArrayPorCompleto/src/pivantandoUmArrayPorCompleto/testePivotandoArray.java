@@ -4,7 +4,7 @@ package pivantandoUmArrayPorCompleto;
 public class testePivotandoArray {
 
 	public static void main(String[] args) {
-Notas guilherme = new Notas("guilherme",7);
+		Notas guilherme = new Notas("guilherme",7);
 		
 		Notas[] notas = {
 				new Notas("andre",4),
